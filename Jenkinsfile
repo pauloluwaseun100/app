@@ -17,7 +17,7 @@ pipeline {
 
         stage("Deploy to k8s cluster") {
             steps {
-                sh "kubectl apply -f "
+                sh "ls -lah"
                 echo "Docker image built successfully"
             }
         }
